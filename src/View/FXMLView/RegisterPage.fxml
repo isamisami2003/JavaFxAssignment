@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.chart.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="450.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.RegisterPageController">
+   <children>
+      <AnchorPane prefHeight="450.0" prefWidth="350.0">
+         <children>
+            <Button fx:id="LoginButton" layoutX="135.0" layoutY="359.0" mnemonicParsing="false" onAction="#LoginButtonHandler" prefHeight="30.0" prefWidth="80.0" style="-fx-background-color: blue; -fx-text-fill: white;" text="Login" />
+            <TextField fx:id="txtuserName" layoutX="84.0" layoutY="233.0" style="-fx-border-color: blue;" />
+            <Label layoutX="127.0" layoutY="195.0" prefHeight="21.0" prefWidth="96.0" style="-fx-font-weight: Bold;" text="  User Name" />
+            <Label layoutX="137.0" layoutY="274.0" prefHeight="21.0" prefWidth="80.0" style="-fx-font-weight: Bold;" text="Password" />
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="100.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../image/images.png" />
+               </image></ImageView>
+            <PasswordField fx:id="txtPassword" layoutX="84.0" layoutY="311.0" style="-fx-border-color: blue;" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
