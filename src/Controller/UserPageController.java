@@ -45,7 +45,7 @@ public class UserPageController implements Initializable {
     void LogOutButtonHandler(ActionEvent event) throws IOException {
         clear();
         ViewManager.closeUserPage();
-        ViewManager.openRegisterPage();
+        ViewManager.changeSceneToRegisterPage();
     }
 
     @FXML
